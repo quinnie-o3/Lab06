@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1400" viewBox="0 0 2400 1400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="55%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#052e16" />
+    </linearGradient>
+  </defs>
+  <rect width="2400" height="900" fill="url(#sky)" />
+  <rect y="900" width="2400" height="500" fill="url(#ground)" />
+  <circle cx="1850" cy="260" r="140" fill="#fde68a" />
+  <path
+    d="M0 980 C 300 860, 620 1040, 900 930 C 1200 820, 1550 1060, 1900 940 C 2150 860, 2300 980, 2400 930 L 2400 1400 L 0 1400 Z"
+    fill="#166534"
+    opacity="0.7"
+  />
+  <g fill="#0f172a" opacity="0.5">
+    <rect x="140" y="740" width="60" height="220" />
+    <rect x="180" y="700" width="120" height="260" />
+    <rect x="320" y="780" width="80" height="180" />
+    <rect x="1780" y="720" width="90" height="240" />
+    <rect x="1860" y="680" width="150" height="280" />
+    <rect x="2020" y="760" width="70" height="200" />
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with Next.js",
+    "content": "Next.js is a React framework that supports file-based routing, server rendering, and static generation."
+  },
+  {
+    "id": "2",
+    "title": "Static Generation Basics",
+    "content": "Static generation creates HTML at build time for fast delivery and great SEO."
+  },
+  {
+    "id": "3",
+    "title": "Dynamic Routes in Pages Router",
+    "content": "Use files like pages/blog/[id].js and getStaticPaths to build dynamic routes."
+  },
+  {
+    "id": "4",
+    "title": "Fallback Rendering",
+    "content": "With fallback: true, Next.js can generate new pages on demand after the build."
+  },
+  {
+    "id": "5",
+    "title": "Data Fetching Patterns",
+    "content": "getStaticProps runs at build time and passes data to your page as props."
+  }
+]
